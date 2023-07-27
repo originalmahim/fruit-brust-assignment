@@ -17,4 +17,50 @@
 </style>
 </head>
 <body>
+    <header class="lg:mx-40 mx-1">
+        <nav>
+            <div class="navbar lg:bg-rose-500 mt-10 lg:rounded-full h-24 lg:px-7 px-0">
+                <div class="navbar-start">
+                    <div class="navbar-start">
+                        <div class="hidden lg:flex text-white">
+                            <ul class="menu menu-horizontal px-1 font-bold">
+                              <li><a>Home</a></li>
+                              <li><a>About Us</a></li>
+                              <li><a>Shop</a></li>
+                              <li><a>All Fruits</a></li>
+                            </ul>
+                          </div>
+                          <div class="lg:hidden">
+                            <a class="gap-3 items-center flex font-lato text-2xl
+                             lg:text-white font-black w-44">
+                             <img class="w-9 h-9" src="images/logo.png" alt="">Fruit Burst</a>
+                          </div>
+                    </div>
+                  
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <a class="gap-3 flex items-center font-lato normal-case text-3xl
+                   lg:text-white font-black">
+                   <img class="w-9 h-9" src="images/logo.png" alt="">Fruit Burst</a>
+                </div>
+                <div class="navbar-end">
+                    <input type="text" placeholder="Search" class="hidden lg:flex relative lg:w-80 rounded-full input w-24 md:w-auto" />
+                  <button class="btn btn-ghost btn-circle absolute">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="hidden lg:flex h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+                  <div class="dropdown dropdown-left dropdown-end lg:hidden">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-40">
+                      <li><a>Home</a></li>
+                              <li><a>About Us</a></li>
+                              <li><a>Shop</a></li>
+                              <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>  
+        </nav>
+            </header>
 </body>
